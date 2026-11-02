@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#111827">
+  <title>Transit Kos</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #111827;
+    }
+
+    .app {
+      max-width: 500px;
+      margin: auto;
+      min-height: 100vh;
+    }
+
+    .header {
+      background: #111827;
+      color: white;
+      padding: 24px 20px;
+      border-radius: 0 0 24px 24px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-size: 26px;
+    }
+
+    .header p {
+      margin: 6px 0 0;
+      opacity: .75;
+    }
+
+    .content {
+      padding: 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 18px;
+      border-radius: 18px;
+      margin-bottom: 14px;
+      box-shadow: 0 4px 15px rgba(0,0,0,.06);
+    }
+
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+
+    .button {
+      display: block;
+      width: 100%;
+      padding: 14px;
+      border: 0;
+      border-radius: 12px;
+      background: #111827;
+      color: white;
+      font-size: 15px;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    .button:active {
+      transform: scale(.98);
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="app">
+
+  <div class="header">
+    <h1>Transit Kos</h1>
+    <p>Kos Transit & Penginapan</p>
+  </div>
+
+  <div class="content">
+
+    <div class="card">
+      <h2>🏠 Cari Kamar</h2>
+      <p>Pilih lokasi dan kamar yang tersedia.</p>
+      <button class="button" onclick="bukaAplikasi()">
+        Lihat Kamar
+      </button>
+    </div>
+
+    <div class="card">
+      <h2>📋 Booking</h2>
+      <p>Pesan kamar dengan mudah dan cepat.</p>
+    </div>
+
+    <div class="card">
+      <h2>📊 Admin</h2>
+      <p>Kelola kamar, booking, pekerja dan omset.</p>
+    </div>
+
+  </div>
+
+</div>
+
+<script>
+function bukaAplikasi() {
+  window.location.href =
+    "https://script.google.com/macros/s/AKfycby9JNXTTidA8JVcf0gsHVjUMLFwg_4Rj9ublbbE8wjblcl0lbgryJKh_f45Zy5umv86/exec";
+}
+</script>
+
+</body>
+</html>
